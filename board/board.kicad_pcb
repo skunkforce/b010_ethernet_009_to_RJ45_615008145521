@@ -509,7 +509,7 @@
     (property "Sheetname" "rj45")
     (path "/2366e56d-f0ca-498c-aaf9-0ba2aaf17538/8ace62d9-8060-4514-b211-5041041f8626")
     (attr through_hole)
-    (fp_text reference "J2" (at -3 -4.5) (layer "F.SilkS")
+    (fp_text reference "J2" (at -0.23 14.145) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fdd1723f-c242-49eb-ad1d-8e40b46c02b4)
     )
