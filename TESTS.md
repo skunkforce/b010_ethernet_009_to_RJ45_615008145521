@@ -1,5 +1,12 @@
-# cable adapter test
+# 100Mbit communication test
 ## setup
-Connect b010 to b060 to b010. 
+```mermaid
+graph LR
+    PC -- usb --> b051
+    b051 --> b016
+    b016 --> b099
+    b099 --> b010
+    b010 --ethernet --> internet
+```
 ## results
-connecting cables to both ends should allow communication transparently though the chain.
+The PC was able to communicate with the internet through the chain.
